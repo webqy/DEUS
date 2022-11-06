@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Конфигуратор</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221106143829">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-black">
+	<div class="wrapper bg-black">
+		<header data-lp class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="home.html" class="header__logo-item">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+								<li class="menu__item"><a href="delivery.html" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="payment.html" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="guarantee.html" class="menu__link">Гарантия</a></li>
+								<li class="menu__item"><a href="about-us.html" class="menu__link">О нас</a></li>
+							</ul>
+							<div class="menu__body-item--1"></div>
+							<div class="menu__body-item--2"></div>
+						</nav>
+					</div>
+					<a href="tel:+375297643351" class="header__phone">+375 (29) 764-33-51</a>
+					<div class="header__cart cart-header">
+						<a href="cart.html" class="cart-header__icon">
+							<div class="cart-header__icon-item _icon-basket"></div>
+						</a>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="configurator">
+				<div class="configurator__container">
+					<div class="configurator__body">
+
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<form class="popup__content cart-popup">
+				<div class="cart-popup__top">
+					<h3 class="cart-popup__title">Загрузить сборку</h3>
+					<button data-close type="button" class="cart-popup__close"></button>
+				</div>
+				<div class="cart-popup__input">
+					<input autocomplete="off" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Введите номер сборки" class="cart-popup__input-item input">
+				</div>
+				<div class="cart-popup__buttons">
+					<button data-close type="button" class="cart-popup__cancel">
+						<div class="cart-popup__cancel-icon _icon-arrow"></div>
+						<div class="cart-popup__cancel-text">отмена</div>
+					</button>
+					<button type="submit" class="cart-popup__button button">
+						<div class="button__item"><span>Добавить</span></div>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20221106143829"></script>
+</body>
+
+</html>
