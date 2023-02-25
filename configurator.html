@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Конфигуратор</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230225081142">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-black">
+	<div class="wrapper bg-black">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="home.html" class="header__logo-item">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" /></picture>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="catalog.html" class="menu__link">Каталог</a>
+								</li>
+								<li class="menu__item">
+									<a href="configurator.html" class="menu__link _active">Конфигуратор</a>
+								</li>
+								<li class="menu__item">
+									<a href="delivery.html" class="menu__link">Доставка</a>
+								</li>
+								<li class="menu__item">
+									<a href="payment.html" class="menu__link">Оплата</a>
+								</li>
+								<li class="menu__item">
+									<a href="guarantee.html" class="menu__link">Гарантия</a>
+								</li>
+								<li class="menu__item">
+									<a href="about-us.html" class="menu__link">О нас</a>
+								</li>
+								<li class="menu__item">
+									<a href="tel:+375297643351" class="menu__link menu__link--phone">+375 (29) 764-33-51</a>
+								</li>
+							</ul>
+							<div class="menu__body-item--1"></div>
+							<div class="menu__body-item--2"></div>
+						</nav>
+					</div>
+					<a href="tel:+375297643351" class="header__phone">+375 (29) 764-33-51</a>
+					<div class="header__cart cart-header">
+						<a href="cart.html" class="cart-header__icon">
+							<div class="cart-header__icon-item _icon-basket"></div>
+						</a>
+					</div>
+					<button type="button" class="menu__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div data-fullscreen class="configurator">
+				<div class="configurator__container">
+					<div class="configurator__body">
+						<div class="configurator__content content-configurator content-configurator--desktop _active">
+							<div class="content-configurator__main main-configurator">
+								<div class="main-configurator__image"><picture><source srcset="img/configuration-big.webp" type="image/webp"><img src="img/configuration-big.png" alt="image"></picture>
+									<div class="main-configurator__icon _icon-save"></div>
+								</div>
+								<div class="main-configurator__lists-wrapper">
+									<div class="main-configurator__lists _active">
+										<ul data-simplebar class="main-configurator__list _active">
+											<li data-price="118" class="main-configurator__list-item">
+												<div class="main-configurator__title">AMD Ryzen 5 3600</div>
+												<div class="main-configurator__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="197" class="main-configurator__list-item">
+												<div class="main-configurator__title">AMD Ryzen 7 3700X</div>
+												<div class="main-configurator__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="329" class="main-configurator__list-item">
+												<div class="main-configurator__title">AMD Ryzen 9 3900X</div>
+												<div class="main-configurator__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="408" class="main-configurator__list-item">
+												<div class="main-configurator__title">AMD Ryzen 9 3950X</div>
+												<div class="main-configurator__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="501" class="main-configurator__list-item">
+												<div class="main-configurator__title">AMD Ryzen 9 5950X</div>
+												<div class="main-configurator__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="290" class="main-configurator__list-item">
+												<div class="main-configurator__title">Intel Core i5-12600K</div>
+												<div class="main-configurator__subtitle">10x Core 20x Threads 2.8-4.9Hz 20Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="395" class="main-configurator__list-item">
+												<div class="main-configurator__title">Intel Core i7-12700k</div>
+												<div class="main-configurator__subtitle">12x Core 24x Threads 2.7-5Hz 12Mb Level 3 Cashe</div>
+											</li>
+											<li data-price="540" class="main-configurator__list-item">
+												<div class="main-configurator__title">Intel Core i9-12900K</div>
+												<div class="main-configurator__subtitle">16x Core 24x Threads 2.8-5.2Hz 14Mb Level 3 Cashe</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="461" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 2060 Super 8Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 3.0 8 GB GDDR6, 256 bit, DisplayPort x3, HDMI, GPU</div>
+											</li>
+											<li data-price="462" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 2070 Super 8Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 3.0, 8 GB GDDR6, 256 bit, DisplayPort x3, HDMI</div>
+											</li>
+											<li data-price="464" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 2080 Super 8Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 3.0, 8 GB GDDR6, 256 bit, DisplayPort x3 HDMI, USB-C</div>
+											</li>
+											<li data-price="490" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 2080 Ti Super 11Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 3.0, 11 GB GDDR6, 352 bit, DisplayPort x3 HDMI, USB-C</div>
+											</li>
+											<li data-price="435" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 3060 Super 12Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 4.0, 12 GB GDDR6, 192 bit, DisplayPort x2, HDMI, GPU</div>
+											</li>
+											<li data-price="791" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 3070 Super 8Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 4.0, 8 GB GDDR6, 256 bit, DisplayPort x2, HDMI, GPU</div>
+											</li>
+											<li data-price="923" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 3080 Super 10Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 4.0 10 GB GDDR6X, 320 bit, DisplayPort x3, HDMI, GPU</div>
+											</li>
+											<li data-price="1187" class="main-configurator__list-item">
+												<div class="main-configurator__title">Gigabyte RTX 3080 Ti Super 12Gb</div>
+												<div class="main-configurator__subtitle">PCI-E 4.0 12 GB GDDR6X, 384 bit, DisplayPort x3, HDMI, GPU</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="118" class="main-configurator__list-item">
+												<div class="main-configurator__title">AMD B450 ATX 4xDimm Gigabyte Pro</div>
+												<div class="main-configurator__subtitle">AM4, AMD B450, 4xDDR4-2933 MHz, 3xPCI-Ex16, 2xM.2</div>
+											</li>
+											<li data-price="158" class="main-configurator__list-item">
+												<div class="main-configurator__title">GIGABYTE X570 UD</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 3xPCI-Ex16, 1xM.2</div>
+											</li>
+											<li data-price="170" class="main-configurator__list-item">
+												<div class="main-configurator__title">GIGABYTE X570S UD</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 3xM.2</div>
+											</li>
+											<li data-price="173" class="main-configurator__list-item">
+												<div class="main-configurator__title">MSI X570-A PRO</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+											</li>
+											<li data-price="184" class="main-configurator__list-item">
+												<div class="main-configurator__title">ASRock X570 Pro4</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+											</li>
+											<li data-price="190" class="main-configurator__list-item">
+												<div class="main-configurator__title">GIGABYTE X570 GAMING X</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+											</li>
+											<li data-price="196" class="main-configurator__list-item">
+												<div class="main-configurator__title">MSI MPG X570 GAMING PLUS</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+											</li>
+											<li data-price="200" class="main-configurator__list-item">
+												<div class="main-configurator__title">ASUS PRIME X570-P</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+											</li>
+											<li data-price="220" class="main-configurator__list-item">
+												<div class="main-configurator__title">GIGABYTE X570 AORUS ELITE</div>
+												<div class="main-configurator__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="79" class="main-configurator__list-item">
+												<div class="main-configurator__title">G.Skill RGB 2x8Gb 3200MHz</div>
+												<div class="main-configurator__subtitle">DDR4, 8 GBx2, 3200 MHz, 16-18-18-38</div>
+											</li>
+											<li data-price="82" class="main-configurator__list-item">
+												<div class="main-configurator__title">Kingston FURY Beast RGB Special Edition</div>
+												<div class="main-configurator__subtitle">DDR4, 16 GBx2, 3200 MHz, 16-20-20</div>
+											</li>
+											<li data-price="85" class="main-configurator__list-item">
+												<div class="main-configurator__title">Kingston FURY Beast Black RGB</div>
+												<div class="main-configurator__subtitle">DDR4, 16 GBx2, 3733 MHz, 19-23-23</div>
+											</li>
+											<li data-price="88" class="main-configurator__list-item">
+												<div class="main-configurator__title">Netac Shadow RGB</div>
+												<div class="main-configurator__subtitle">DDR5, 8 GBx2, 4800 MHz, 40-40-40-77</div>
+											</li>
+											<li data-price="90" class="main-configurator__list-item">
+												<div class="main-configurator__title">Corsair Vengeance RGB PRO</div>
+												<div class="main-configurator__subtitle">DDR4, 16 GBx2, 3600 MHz, 18-22-22-42</div>
+											</li>
+											<li data-price="93" class="main-configurator__list-item">
+												<div class="main-configurator__title">HP V8 RGB series</div>
+												<div class="main-configurator__subtitle">DDR4, 16 GBx2, 3600 MHz, 18-22-22-42</div>
+											</li>
+											<li data-price="96" class="main-configurator__list-item">
+												<div class="main-configurator__title">G.Skill TRIDENT Z Neo RGB</div>
+												<div class="main-configurator__subtitle">DDR4, 16 GBx2, 3200 MHz, 16-18-18-38</div>
+											</li>
+											<li data-price="98" class="main-configurator__list-item">
+												<div class="main-configurator__title">ADATA XPG SPECTRIX D41 RGB</div>
+												<div class="main-configurator__subtitle">DDR4, 16 GBx2, 3600 MHz, 18-20-20</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="51" class="main-configurator__list-item">
+												<div class="main-configurator__title">XPG SX8200 Pro 512Gb M.2</div>
+												<div class="main-configurator__subtitle">PCI-E 3.x x4, чтение - 3350 Мбайт/сек, запись - 2350 Мбайт/сек, 3 бит TLC, NVM Express</div>
+											</li>
+											<li data-price="65" class="main-configurator__list-item">
+												<div class="main-configurator__title">512 GB SSD M.2 Silicon Power P34A80</div>
+												<div class="main-configurator__subtitle">PCI-E 3.x x4, чтение - 3400 Мбайт/сек, запись - 2300 Мбайт/сек, 3 бит TLC, NVM Express</div>
+											</li>
+											<li data-price="70" class="main-configurator__list-item">
+												<div class="main-configurator__title">500 GB SSD M.2 Samsung 980</div>
+												<div class="main-configurator__subtitle">PCI-E 3.x x4, чтение - 3100 Мбайт/сек, запись - 2600 Мбайт/сек, 3 бит MLC (TLC), NVM Express</div>
+											</li>
+											<li data-price="73" class="main-configurator__list-item">
+												<div class="main-configurator__title">500 GB SSD M.2 WD Blue</div>
+												<div class="main-configurator__subtitle">SATA 3, чтение - 560 Мбайт/сек, запись - 530 Мбайт/сек, 3 бит TLC</div>
+											</li>
+											<li data-price="75" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000 GB SSD M.2 MSI SPATIUM M371</div>
+												<div class="main-configurator__subtitle">PCI-E 3.x x4, чтение - 2000 Мбайт/сек, запись - 1600 Мбайт/сек, 4 бит QLC, NVM Express</div>
+											</li>
+											<li data-price="77" class="main-configurator__list-item">
+												<div class="main-configurator__title">500 GB SSD M.2 Netac NV5000 Pro</div>
+												<div class="main-configurator__subtitle">PCI-E 4.0 x4, чтение - 5000 Мбайт/сек, запись - 4400 Мбайт/сек, NVM Express</div>
+											</li>
+											<li data-price="80" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000 GB SSD M.2 ADATA Falcon</div>
+												<div class="main-configurator__subtitle">PCI-E 3.x x4, чтение - 3000 Мбайт/сек, запись - 1500 Мбайт/сек, 3 бит TLC, NVM Express</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="63" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000Gb Seagate 7200rpm Barracuda</div>
+												<div class="main-configurator__subtitle">SATA III, 7200 rpm, 160 Мбайт/сек, кэш память - 128 МБ</div>
+											</li>
+											<li data-price="73" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000Gb Toshiba S300 Surveillance</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 5700 об/мин, кэш память - 64 МБ</div>
+											</li>
+											<li data-price="76" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000Gb WD Blue</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 7200 об/мин, кэш память - 64 МБ</div>
+											</li>
+											<li data-price="77" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000Gb WD Purple Surveillance</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 5400 об/мин, кэш память - 64 МБ, RAID Edition</div>
+											</li>
+											<li data-price="80" class="main-configurator__list-item">
+												<div class="main-configurator__title">1000Gb Seagate Exos 7E8</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 7200 об/мин, кэш память - 256 МБ, RAID Edition</div>
+											</li>
+											<li data-price="88" class="main-configurator__list-item">
+												<div class="main-configurator__title">2000Gb WD Blue</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 5400 об/мин, кэш память - 256 МБ</div>
+											</li>
+											<li data-price="100" class="main-configurator__list-item">
+												<div class="main-configurator__title">2000Gb WD Purple Surveillance</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 5400 об/мин, кэш память - 256 МБ, RAID Edition</div>
+											</li>
+											<li data-price="105" class="main-configurator__list-item">
+												<div class="main-configurator__title">2000Gb Seagate IronWolf</div>
+												<div class="main-configurator__subtitle">SATA III, 6 Гбит/с, 5900 об/мин, кэш память - 64 МБ, RAID Edition</div>
+											</li>
+										</ul>
+									</div>
+									<div class="main-configurator__lists">
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="116" class="main-configurator__list-item">
+												<div class="main-configurator__title">Corsair SF600</div>
+												<div class="main-configurator__subtitle">600 Вт, 80+ Platinum, EPS12V, APFC, 20 + 4 pin, 4+4 pin CPU, 4 SATA, 6+2 pin x2 PCI-E</div>
+											</li>
+											<li data-price="100" class="main-configurator__list-item">
+												<div class="main-configurator__title">FSP DAGGER PRO</div>
+												<div class="main-configurator__subtitle">650 Вт, 80+ Gold, EPS12V, APFC, 20 + 4 pin, 4+4 pin, 8 pin CPU, 5 SATA, 6+2 pin x2 PCI-E</div>
+											</li>
+											<li data-price="101" class="main-configurator__list-item">
+												<div class="main-configurator__title">Cooler Master GOLD - V2</div>
+												<div class="main-configurator__subtitle">650 Вт, 80+ Gold, EPS12V, APFC, 20 + 4 pin, 4+4 pin, 8 pin CPU, 8 SATA, 6+2 pin x4 PCI-E</div>
+											</li>
+											<li data-price="97" class="main-configurator__list-item">
+												<div class="main-configurator__title">DeepCool Quanta Gold</div>
+												<div class="main-configurator__subtitle">750 Вт, 80+ Gold, EPS12V, APFC, 20 + 4 pin, 4+4 pin x2 CPU, 8 SATA, 6+2 pin x4 PCI-E</div>
+											</li>
+											<li data-price="99" class="main-configurator__list-item">
+												<div class="main-configurator__title">ZALMAN ARX</div>
+												<div class="main-configurator__subtitle">750 Вт, 80+ Platinum, EPS12V, APFC, 20 + 4 pin, 8 pin, 4+4 pin CPU, 12 SATA, 6+2 pin x4 PCI-E</div>
+											</li>
+											<li data-price="100" class="main-configurator__list-item">
+												<div class="main-configurator__title">Thermaltake Toughpower GF</div>
+												<div class="main-configurator__subtitle">750 Вт, 80+ Gold, APFC, 24 pin, 8 pin, 4+4 pin CPU, 9 SATA, 6+2 pin x4 PCI-E</div>
+											</li>
+											<li data-price="105" class="main-configurator__list-item">
+												<div class="main-configurator__title">Chieftec POLARIS</div>
+												<div class="main-configurator__subtitle">750 Вт, 80+ Gold, APFC, 20 + 4 pin, 4+4 pin x2 CPU, 8 SATA, 6+2 pin x4 PCI-E</div>
+											</li>
+											<li data-price="110" class="main-configurator__list-item">
+												<div class="main-configurator__title">Cougar BXM</div>
+												<div class="main-configurator__subtitle">1000 Вт, 80+ Bronze, APFC, 20 + 4 pin, 8 pin, 4+4 pin CPU, 9 SATA, 6+2 pin x8 PCI-E</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="25" class="main-configurator__list-item">
+												<div class="main-configurator__title">DEEPCOOL GAMMAXX 400S</div>
+												<div class="main-configurator__subtitle">1300 об/мин, 14.6 дБ, 3 pin, 130 Вт</div>
+											</li>
+											<li data-price="26" class="main-configurator__list-item">
+												<div class="main-configurator__title">AeroCool Verkho 4</div>
+												<div class="main-configurator__subtitle">2000 об/мин, 27 дБ, 4 pin, 140 Вт</div>
+											</li>
+											<li data-price="27" class="main-configurator__list-item">
+												<div class="main-configurator__title">AeroCool Verkho 4 Lite</div>
+												<div class="main-configurator__subtitle">2000 об/мин, 26.8 дБ, 4 pin, 125 Вт</div>
+											</li>
+											<li data-price="28" class="main-configurator__list-item">
+												<div class="main-configurator__title">ID-COOLING SE-224-XT-R</div>
+												<div class="main-configurator__subtitle">1800 об/мин, 32.5 дБ, 4 pin, 180 Вт</div>
+											</li>
+											<li data-price="28" class="main-configurator__list-item">
+												<div class="main-configurator__title">DEEPCOOL GAMMAXX GTE V2</div>
+												<div class="main-configurator__subtitle">1650 об/мин, 27.8 дБ, 4 pin, 180 Вт</div>
+											</li>
+											<li data-price="30" class="main-configurator__list-item">
+												<div class="main-configurator__title">DEEPCOOL AG400 BK ARGB</div>
+												<div class="main-configurator__subtitle">2000 об/мин, 31.6 дБ, 4 pin, 220 Вт</div>
+											</li>
+											<li data-price="31" class="main-configurator__list-item">
+												<div class="main-configurator__title">Cooler Master Hyper H410R</div>
+												<div class="main-configurator__subtitle">2000 об/мин, 29 дБ, 4 pin, 100 Вт</div>
+											</li>
+											<li data-price="32" class="main-configurator__list-item">
+												<div class="main-configurator__title">Xilence M403PRO.W.ARGB</div>
+												<div class="main-configurator__subtitle">1800 об/мин, 25.6 дБ, 4 pin, 150 Вт</div>
+											</li>
+										</ul>
+									</div>
+									<div class="main-configurator__lists">
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="13" class="main-configurator__list-item">
+												<div class="main-configurator__title">Windows 10 Pro</div>
+											</li>
+											<li data-price="13" class="main-configurator__list-item">
+												<div class="main-configurator__title">Windows 10 Home</div>
+											</li>
+											<li data-price="13" class="main-configurator__list-item">
+												<div class="main-configurator__title">Windows 10 Corporate</div>
+											</li>
+											<li data-price="15" class="main-configurator__list-item">
+												<div class="main-configurator__title">Windows 11 Pro</div>
+											</li>
+											<li data-price="15" class="main-configurator__list-item">
+												<div class="main-configurator__title">Windows 11 Home</div>
+											</li>
+											<li data-price="15" class="main-configurator__list-item">
+												<div class="main-configurator__title">Windows 11 Corporate</div>
+											</li>
+										</ul>
+									</div>
+									<div class="main-configurator__lists">
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="145" class="main-configurator__list-item">
+												<div class="main-configurator__title">Corsair Gaming K70 RGB</div>
+												<div class="main-configurator__subtitle">Cherry MX Speed, клавиш - 111, USB</div>
+											</li>
+											<li data-price="146" class="main-configurator__list-item">
+												<div class="main-configurator__title">Dark Project KD87A Gateron Teal Cap</div>
+												<div class="main-configurator__subtitle">механическая Gateron Cap Teal, клавиш - 87, USB</div>
+											</li>
+											<li data-price="146" class="main-configurator__list-item">
+												<div class="main-configurator__title">HyperX Alloy FPS RGB</div>
+												<div class="main-configurator__subtitle">механическая Kailh Silver Speed, клавиш - 104, USB</div>
+											</li>
+											<li data-price="147" class="main-configurator__list-item">
+												<div class="main-configurator__title">SteelSeries Apex 3</div>
+												<div class="main-configurator__subtitle">мембранная, клавиш - 106, USB</div>
+											</li>
+											<li data-price="147" class="main-configurator__list-item">
+												<div class="main-configurator__title">Xtrfy K4 RGB</div>
+												<div class="main-configurator__subtitle">механическая Kailh Red, клавиш - 105, USB</div>
+											</li>
+											<li data-price="149" class="main-configurator__list-item">
+												<div class="main-configurator__title">Glorious GMMK Compact</div>
+												<div class="main-configurator__subtitle">механическая Gateron Brown, клавиш - 61, USB</div>
+											</li>
+											<li data-price="150" class="main-configurator__list-item">
+												<div class="main-configurator__title">Glorious GMMK TKL</div>
+												<div class="main-configurator__subtitle">механическая Gateron Brown, клавиш - 87, USB</div>
+											</li>
+											<li data-price="150" class="main-configurator__list-item">
+												<div class="main-configurator__title">Logitech G512 Carbon</div>
+												<div class="main-configurator__subtitle">механическая Logitech GX Brown, клавиш - 104, USB</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="125" class="main-configurator__list-item">
+												<div class="main-configurator__title">Razer Basilisk Ultimate</div>
+												<div class="main-configurator__subtitle">20000 dpi, светодиодный, USB Type-A, кнопки - 11</div>
+											</li>
+											<li data-price="127" class="main-configurator__list-item">
+												<div class="main-configurator__title">Pulsar X2</div>
+												<div class="main-configurator__subtitle">26000 dpi, светодиодный, USB Type-C, кнопки - 5</div>
+											</li>
+											<li data-price="128" class="main-configurator__list-item">
+												<div class="main-configurator__title">Logitech G502 LIGHTSPEED</div>
+												<div class="main-configurator__subtitle">25600 dpi, светодиодный, USB Type-A, кнопки - 11</div>
+											</li>
+											<li data-price="131" class="main-configurator__list-item">
+												<div class="main-configurator__title">ASUS ROG Gladius III</div>
+												<div class="main-configurator__subtitle">19000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 6</div>
+											</li>
+											<li data-price="133" class="main-configurator__list-item">
+												<div class="main-configurator__title">ASUS ROG Chakram</div>
+												<div class="main-configurator__subtitle">16000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 6</div>
+											</li>
+											<li data-price="134" class="main-configurator__list-item">
+												<div class="main-configurator__title">ASUS ROG Chakram X</div>
+												<div class="main-configurator__subtitle">36000 dpi, светодиодный, USB Type-A, кнопки - 11</div>
+											</li>
+											<li data-price="134" class="main-configurator__list-item">
+												<div class="main-configurator__title">Razer DeathAdder V3 Pro</div>
+												<div class="main-configurator__subtitle">30000 dpi, светодиодный, USB Type-A, кнопки - 5</div>
+											</li>
+											<li data-price="135" class="main-configurator__list-item">
+												<div class="main-configurator__title">Xtrfy M42 Wireless</div>
+												<div class="main-configurator__subtitle">19000 dpi, светодиодный, USB Type-A, кнопки - 6</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="395" class="main-configurator__list-item">
+												<div class="main-configurator__title">ASUS TUF Gaming VG289Q</div>
+												<div class="main-configurator__subtitle">3840x2160@60 Гц, 28", IPS, 5 мс, 1000 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI, AMD FreeSync</div>
+											</li>
+											<li data-price="450" class="main-configurator__list-item">
+												<div class="main-configurator__title">MSI Optix MAG321QR</div>
+												<div class="main-configurator__subtitle">2560x1440@165 Гц, 31.5", IPS, 1200 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI x2, USB Type-C, USB х2 шт, NVIDIA G-SYNC Compatible</div>
+											</li>
+											<li data-price="500" class="main-configurator__list-item">
+												<div class="main-configurator__title">HUAWEI MateView GT ZQE-CBA</div>
+												<div class="main-configurator__subtitle">3440x1440@165 Гц, 34", VA, 4 мс, 4000 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI x2</div>
+											</li>
+											<li data-price="644" class="main-configurator__list-item">
+												<div class="main-configurator__title">GIGABYTE AORUS FO48U</div>
+												<div class="main-configurator__subtitle">3840x2160@120 Гц, 47.53", OLED, 1 мс, 135000 : 1, 900 Кд/м², 178°/178°, HDMI x2, DisplayPort, USB Type-C, USB х2 шт, AMD FreeSync Premium</div>
+											</li>
+											<li data-price="668" class="main-configurator__list-item">
+												<div class="main-configurator__title">MSI Optix MAG281URF</div>
+												<div class="main-configurator__subtitle">3840x2160@144 Гц, 27.9", IPS, 1000 : 1, 400 Кд/м², 178°/178°, DisplayPort, HDMI x2, USB Type-C, USB х2 шт, NVIDIA G-SYNC Compatible</div>
+											</li>
+											<li data-price="680" class="main-configurator__list-item">
+												<div class="main-configurator__title">LG UltraGear 27GN800-B</div>
+												<div class="main-configurator__subtitle">2560x1440@144 Гц, 27", IPS, 1 мс, 1000 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI x2, AMD FreeSync Premium, NVIDIA G-SYNC Compatible</div>
+											</li>
+											<li data-price="700" class="main-configurator__list-item">
+												<div class="main-configurator__title">MSI Optix MAG342CQR</div>
+												<div class="main-configurator__subtitle">3440x1440@144 Гц, 34", VA, 4000 : 1, 300 Кд/м², 178°/178°, DisplayPort, HDMI x2, Adaptive-Sync</div>
+											</li>
+											<li data-price="712" class="main-configurator__list-item">
+												<div class="main-configurator__title">Samsung Odyssey G7 S28AG702NI</div>
+												<div class="main-configurator__subtitle">3840x2160@144 Гц, 28", IPS, 1 мс, 1000 : 1, 400 Кд/м², 178°/178°, DisplayPort, HDMI x2, USB х2 шт, AMD FreeSync Premium Pro, NVIDIA G-SYNC Compatible</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="105" class="main-configurator__list-item">
+												<div class="main-configurator__title">Razer Nommo</div>
+												<div class="main-configurator__subtitle">20 Вт, питание - сеть 220 В</div>
+											</li>
+											<li data-price="130" class="main-configurator__list-item">
+												<div class="main-configurator__title">Fiero BHS-200</div>
+												<div class="main-configurator__subtitle">50 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+											</li>
+											<li data-price="155" class="main-configurator__list-item">
+												<div class="main-configurator__title">Microlab SOLO19</div>
+												<div class="main-configurator__subtitle">200 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+											</li>
+											<li data-price="176" class="main-configurator__list-item">
+												<div class="main-configurator__title">Thonet & Vander Vertrag BT</div>
+												<div class="main-configurator__subtitle">46 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+											</li>
+											<li data-price="188" class="main-configurator__list-item">
+												<div class="main-configurator__title">Edifier R1042BT</div>
+												<div class="main-configurator__subtitle">42 Вт, Bluetooth, питание - сеть 220 В</div>
+											</li>
+											<li data-price="209" class="main-configurator__list-item">
+												<div class="main-configurator__title">Microlab B77BT</div>
+												<div class="main-configurator__subtitle">64 Вт, Bluetooth, питание - сеть 220 В</div>
+											</li>
+											<li data-price="211" class="main-configurator__list-item">
+												<div class="main-configurator__title">PreSonus Eris E3.5 BT</div>
+												<div class="main-configurator__subtitle">50 Вт, Bluetooth, питание - сеть 220 В</div>
+											</li>
+											<li data-price="211" class="main-configurator__list-item">
+												<div class="main-configurator__title">Thonet & Vander Kugel BT</div>
+												<div class="main-configurator__subtitle">140 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="237" class="main-configurator__list-item">
+												<div class="main-configurator__title">Corsair Virtuoso RGB Wireless SE</div>
+												<div class="main-configurator__subtitle">7.1 Virtual, для Nintendo Switch, PS5, Xbox Series X|S, охватывающие, 20 Гц - 40000 Гц, 32Ω, радиоканал, проводной</div>
+											</li>
+											<li data-price="240" class="main-configurator__list-item">
+												<div class="main-configurator__title">Meze 99 NEO</div>
+												<div class="main-configurator__subtitle">2.0, охватывающие, 15 Гц - 25000 Гц, 26Ω, проводной, кабель - 3 м</div>
+											</li>
+											<li data-price="244" class="main-configurator__list-item">
+												<div class="main-configurator__title">Logitech G733 LIGHTSPEED</div>
+												<div class="main-configurator__subtitle">7.1 Virtual, для PS5, охватывающие, 20 Гц - 20000 Гц, 39Ω, радиоканал</div>
+											</li>
+											<li data-price="245" class="main-configurator__list-item">
+												<div class="main-configurator__title">Sennheiser HD 450 BT</div>
+												<div class="main-configurator__subtitle">2.0, охватывающие, 18000 Гц - 22000 Гц, Bluetooth, 5.0</div>
+											</li>
+											<li data-price="247" class="main-configurator__list-item">
+												<div class="main-configurator__title">Master & Dynamic MW65</div>
+												<div class="main-configurator__subtitle">2.0, охватывающие, 20 Гц - 20000 Гц, 32Ω, Bluetooth, проводной, 4.2, кабель - 1.5 м</div>
+											</li>
+											<li data-price="248" class="main-configurator__list-item">
+												<div class="main-configurator__title">Sennheiser HD 450 BT</div>
+												<div class="main-configurator__subtitle">2.0, охватывающие, 18 Гц - 22000 Гц, Bluetooth, 5.0</div>
+											</li>
+											<li data-price="250" class="main-configurator__list-item">
+												<div class="main-configurator__title">Beyerdynamic DT 990</div>
+												<div class="main-configurator__subtitle">2.0, охватывающие, 5 Гц - 35000 Гц, 250Ω, проводной, кабель - 3 м</div>
+											</li>
+											<li data-price="250" class="main-configurator__list-item">
+												<div class="main-configurator__title">SteelSeries Arctis 9</div>
+												<div class="main-configurator__subtitle">7.1 Virtual, для PS5, охватывающие, 20 Гц - 20000 Гц, 32Ω, Bluetooth, радиоканал, 4.1</div>
+											</li>
+										</ul>
+										<ul data-simplebar class="main-configurator__list">
+											<li data-price="316" class="main-configurator__list-item">
+												<div class="main-configurator__title">MSI MAG CH120</div>
+												<div class="main-configurator__subtitle">экокожа, до 150 кг, подголовник, подлокотники - 4D</div>
+											</li>
+											<li data-price="320" class="main-configurator__list-item">
+												<div class="main-configurator__title">Square LUX</div>
+												<div class="main-configurator__subtitle">искусственная кожа, до 150 кг, подголовник, подлокотники - 4D</div>
+											</li>
+											<li data-price="325" class="main-configurator__list-item">
+												<div class="main-configurator__title">VMMGAME MAROON</div>
+												<div class="main-configurator__subtitle">искусственная кожа, до 150 кг, подголовник, подлокотники - 4D</div>
+											</li>
+											<li data-price="327" class="main-configurator__list-item">
+												<div class="main-configurator__title">CANYON Argama GC-4A</div>
+												<div class="main-configurator__subtitle">экокожа, до 150 кг, подголовник, подлокотники - 3D</div>
+											</li>
+											<li data-price="327" class="main-configurator__list-item">
+												<div class="main-configurator__title">DRIFT DR275NIGHT</div>
+												<div class="main-configurator__subtitle">искусственная кожа, до 150 кг, подлокотники - 4D</div>
+											</li>
+											<li data-price="328" class="main-configurator__list-item">
+												<div class="main-configurator__title">Tesoro Alphaeon S3 TS-F720</div>
+												<div class="main-configurator__subtitle">искусственная кожа, до 130 кг, подголовник, подлокотники - 3D</div>
+											</li>
+											<li data-price="330" class="main-configurator__list-item">
+												<div class="main-configurator__title">AndaSeat Phantom 3</div>
+												<div class="main-configurator__subtitle">ткань, до 90 кг, подголовник, подлокотники - 2D</div>
+											</li>
+											<li data-price="330" class="main-configurator__list-item">
+												<div class="main-configurator__title">WARP Gr</div>
+												<div class="main-configurator__subtitle">экокожа, до 120 кг, подголовник, подлокотники - 3D</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content-configurator__navigation navigation-configurator">
+								<div class="navigation-configurator__items">
+									<div class="navigation-configurator__item _active"><span>1.</span>Комплектующие</div>
+									<div class="navigation-configurator__item"><span>2.</span>Дополнительно</div>
+									<div class="navigation-configurator__item"><span>3.</span>сервис</div>
+									<div class="navigation-configurator__item"><span>4.</span>Периферия</div>
+									<div class="navigation-configurator__item"><span>5.</span>итого</div>
+								</div>
+								<div class="navigation-configurator__columns _active">
+									<div data-price="0" class="navigation-configurator__column _active empty">
+										<div class="navigation-configurator__label">Процессор:</div>
+										<div id="cpu" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Видеокарта:</div>
+										<div id="video" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Материнская плата:</div>
+										<div id="motherboard" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Оперативная память:</div>
+										<div id="ram" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">SSD диск:</div>
+										<div id="ssd" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">HDD диск:</div>
+										<div id="hdd" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+								</div>
+								<div class="navigation-configurator__columns">
+									<div data-price="0" class="navigation-configurator__column _active empty">
+										<div class="navigation-configurator__label">Блок питания:</div>
+										<div id="power" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Система охлаждения:</div>
+										<div id="cooling" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+								</div>
+								<div class="navigation-configurator__columns">
+									<div data-price="0" class="navigation-configurator__column _active empty">
+										<div class="navigation-configurator__label">Операционная система:</div>
+										<div id="os" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+								</div>
+								<div class="navigation-configurator__columns">
+									<div data-price="0" class="navigation-configurator__column _active empty">
+										<div class="navigation-configurator__label">Клавиатура:</div>
+										<div id="keyboard" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Мышь:</div>
+										<div id="mouse" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Монитор:</div>
+										<div id="monitor" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Колонки:</div>
+										<div id="sound" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Наушники:</div>
+										<div id="headphones" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+									<div data-price="0" class="navigation-configurator__column empty">
+										<div class="navigation-configurator__label">Кресло:</div>
+										<div id="armchair" class="navigation-configurator__text">Не выбранно</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="configurator__content content-configurator content-configurator--tablet _active">
+							<div class="content-configurator__image"><picture><source srcset="img/configuration-big.webp" type="image/webp"><img src="img/configuration-big.png" alt="image"></picture></div>
+							<div class="content-configurator__icon _icon-save"></div>
+							<div class="content-configurator__navigation">
+								<div class="content-configurator__slider swiper">
+									<div class="content-configurator__wrapper swiper-wrapper">
+										<div class="content-configurator__slide swiper-slide _active"><span>1.</span>Комплектующие</div>
+										<div class="content-configurator__slide swiper-slide"><span>2.</span>Дополнительно</div>
+										<div class="content-configurator__slide swiper-slide"><span>3.</span>сервис</div>
+										<div class="content-configurator__slide swiper-slide"><span>4.</span>Периферия</div>
+										<div class="content-configurator__slide swiper-slide"><span>5.</span>итого</div>
+									</div>
+								</div>
+							</div>
+							<div data-spollers data-one-spoller class="content-configurator__rows content-configurator-rows _active">
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Процессор:</div>
+											<div id="cpu" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="118" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AMD Ryzen 5 3600</div>
+											<div class="content-configurator-rows__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="197" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AMD Ryzen 7 3700X</div>
+											<div class="content-configurator-rows__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="329" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AMD Ryzen 9 3900X</div>
+											<div class="content-configurator-rows__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="408" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AMD Ryzen 9 3950X</div>
+											<div class="content-configurator-rows__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="501" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AMD Ryzen 9 5950X</div>
+											<div class="content-configurator-rows__subtitle">6x Core 12x Threads 3.6-4.2Hz 32Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="290" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Intel Core i5-12600K</div>
+											<div class="content-configurator-rows__subtitle">10x Core 20x Threads 2.8-4.9Hz 20Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="395" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Intel Core i7-12700k</div>
+											<div class="content-configurator-rows__subtitle">12x Core 24x Threads 2.7-5Hz 12Mb Level 3 Cashe</div>
+										</li>
+										<li data-price="540" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Intel Core i9-12900K</div>
+											<div class="content-configurator-rows__subtitle">16x Core 24x Threads 2.8-5.2Hz 14Mb Level 3 Cashe</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Видеокарта:</div>
+											<div id="video" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="461" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 2060 Super 8Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.0 8 GB GDDR6, 256 bit, DisplayPort x3, HDMI, GPU</div>
+										</li>
+										<li data-price="462" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 2070 Super 8Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.0, 8 GB GDDR6, 256 bit, DisplayPort x3, HDMI</div>
+										</li>
+										<li data-price="464" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 2080 Super 8Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.0, 8 GB GDDR6, 256 bit, DisplayPort x3 HDMI, USB-C</div>
+										</li>
+										<li data-price="490" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 2080 Ti Super 11Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.0, 11 GB GDDR6, 352 bit, DisplayPort x3 HDMI, USB-C</div>
+										</li>
+										<li data-price="435" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 3060 Super 12Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 4.0, 12 GB GDDR6, 192 bit, DisplayPort x2, HDMI, GPU</div>
+										</li>
+										<li data-price="791" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 3070 Super 8Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 4.0, 8 GB GDDR6, 256 bit, DisplayPort x2, HDMI, GPU</div>
+										</li>
+										<li data-price="923" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 3080 Super 10Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 4.0 10 GB GDDR6X, 320 bit, DisplayPort x3, HDMI, GPU</div>
+										</li>
+										<li data-price="1187" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Gigabyte RTX 3080 Ti Super 12Gb</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 4.0 12 GB GDDR6X, 384 bit, DisplayPort x3, HDMI, GPU</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Материнская плата:</div>
+											<div id="motherboard" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="118" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AMD B450 ATX 4xDimm Gigabyte Pro</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD B450, 4xDDR4-2933 MHz, 3xPCI-Ex16, 2xM.2</div>
+										</li>
+										<li data-price="158" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">GIGABYTE X570 UD</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 3xPCI-Ex16, 1xM.2</div>
+										</li>
+										<li data-price="170" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">GIGABYTE X570S UD</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 3xM.2</div>
+										</li>
+										<li data-price="173" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">MSI X570-A PRO</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+										</li>
+										<li data-price="184" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ASRock X570 Pro4</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+										</li>
+										<li data-price="190" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">GIGABYTE X570 GAMING X</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+										</li>
+										<li data-price="196" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">MSI MPG X570 GAMING PLUS</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+										</li>
+										<li data-price="200" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ASUS PRIME X570-P</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+										</li>
+										<li data-price="220" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">GIGABYTE X570 AORUS ELITE</div>
+											<div class="content-configurator-rows__subtitle">AM4, AMD X570, 4xDDR4-3200 MHz, 2xPCI-Ex16, 2xM.2</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Оперативная память:</div>
+											<div id="ram" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="79" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">G.Skill RGB 2x8Gb 3200MHz</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 8 GBx2, 3200 MHz, 16-18-18-38</div>
+										</li>
+										<li data-price="82" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Kingston FURY Beast RGB Special Edition</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 16 GBx2, 3200 MHz, 16-20-20</div>
+										</li>
+										<li data-price="85" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Kingston FURY Beast Black RGB</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 16 GBx2, 3733 MHz, 19-23-23</div>
+										</li>
+										<li data-price="88" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Netac Shadow RGB</div>
+											<div class="content-configurator-rows__subtitle">DDR5, 8 GBx2, 4800 MHz, 40-40-40-77</div>
+										</li>
+										<li data-price="90" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Corsair Vengeance RGB PRO</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 16 GBx2, 3600 MHz, 18-22-22-42</div>
+										</li>
+										<li data-price="93" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">HP V8 RGB series</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 16 GBx2, 3600 MHz, 18-22-22-42</div>
+										</li>
+										<li data-price="96" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">G.Skill TRIDENT Z Neo RGB</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 16 GBx2, 3200 MHz, 16-18-18-38</div>
+										</li>
+										<li data-price="98" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ADATA XPG SPECTRIX D41 RGB</div>
+											<div class="content-configurator-rows__subtitle">DDR4, 16 GBx2, 3600 MHz, 18-20-20</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">SSD диск:</div>
+											<div id="ssd" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="51" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">XPG SX8200 Pro 512Gb M.2</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.x x4, чтение - 3350 Мбайт/сек, запись - 2350 Мбайт/сек, 3 бит TLC, NVM Express</div>
+										</li>
+										<li data-price="65" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">512 GB SSD M.2 Silicon Power P34A80</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.x x4, чтение - 3400 Мбайт/сек, запись - 2300 Мбайт/сек, 3 бит TLC, NVM Express</div>
+										</li>
+										<li data-price="70" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">500 GB SSD M.2 Samsung 980</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.x x4, чтение - 3100 Мбайт/сек, запись - 2600 Мбайт/сек, 3 бит MLC (TLC), NVM Express</div>
+										</li>
+										<li data-price="73" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">500 GB SSD M.2 WD Blue</div>
+											<div class="content-configurator-rows__subtitle">SATA 3, чтение - 560 Мбайт/сек, запись - 530 Мбайт/сек, 3 бит TLC</div>
+										</li>
+										<li data-price="75" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000 GB SSD M.2 MSI SPATIUM M371</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.x x4, чтение - 2000 Мбайт/сек, запись - 1600 Мбайт/сек, 4 бит QLC, NVM Express</div>
+										</li>
+										<li data-price="77" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">500 GB SSD M.2 Netac NV5000 Pro</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 4.0 x4, чтение - 5000 Мбайт/сек, запись - 4400 Мбайт/сек, NVM Express</div>
+										</li>
+										<li data-price="80" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000 GB SSD M.2 ADATA Falcon</div>
+											<div class="content-configurator-rows__subtitle">PCI-E 3.x x4, чтение - 3000 Мбайт/сек, запись - 1500 Мбайт/сек, 3 бит TLC, NVM Express</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">HDD диск:</div>
+											<div id="hdd" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="63" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000Gb Seagate 7200rpm Barracuda</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 7200 rpm, 160 Мбайт/сек, кэш память - 128 МБ</div>
+										</li>
+										<li data-price="73" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000Gb Toshiba S300 Surveillance</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 5700 об/мин, кэш память - 64 МБ</div>
+										</li>
+										<li data-price="76" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000Gb WD Blue</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 7200 об/мин, кэш память - 64 МБ</div>
+										</li>
+										<li data-price="77" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000Gb WD Purple Surveillance</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 5400 об/мин, кэш память - 64 МБ, RAID Edition</div>
+										</li>
+										<li data-price="80" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">1000Gb Seagate Exos 7E8</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 7200 об/мин, кэш память - 256 МБ, RAID Edition</div>
+										</li>
+										<li data-price="88" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">2000Gb WD Blue</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 5400 об/мин, кэш память - 256 МБ</div>
+										</li>
+										<li data-price="100" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">2000Gb WD Purple Surveillance</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 5400 об/мин, кэш память - 256 МБ, RAID Edition</div>
+										</li>
+										<li data-price="105" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">2000Gb Seagate IronWolf</div>
+											<div class="content-configurator-rows__subtitle">SATA III, 6 Гбит/с, 5900 об/мин, кэш память - 64 МБ, RAID Edition</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+							</div>
+							<div data-spollers data-one-spoller class="content-configurator__rows content-configurator-rows">
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Блок питания:</div>
+											<div id="power" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="116" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Corsair SF600</div>
+											<div class="content-configurator-rows__subtitle">600 Вт, 80+ Platinum, EPS12V, APFC, 20 + 4 pin, 4+4 pin CPU, 4 SATA, 6+2 pin x2 PCI-E</div>
+										</li>
+										<li data-price="100" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">FSP DAGGER PRO</div>
+											<div class="content-configurator-rows__subtitle">650 Вт, 80+ Gold, EPS12V, APFC, 20 + 4 pin, 4+4 pin, 8 pin CPU, 5 SATA, 6+2 pin x2 PCI-E</div>
+										</li>
+										<li data-price="101" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Cooler Master GOLD - V2</div>
+											<div class="content-configurator-rows__subtitle">650 Вт, 80+ Gold, EPS12V, APFC, 20 + 4 pin, 4+4 pin, 8 pin CPU, 8 SATA, 6+2 pin x4 PCI-E</div>
+										</li>
+										<li data-price="97" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">DeepCool Quanta Gold</div>
+											<div class="content-configurator-rows__subtitle">750 Вт, 80+ Gold, EPS12V, APFC, 20 + 4 pin, 4+4 pin x2 CPU, 8 SATA, 6+2 pin x4 PCI-E</div>
+										</li>
+										<li data-price="99" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ZALMAN ARX</div>
+											<div class="content-configurator-rows__subtitle">750 Вт, 80+ Platinum, EPS12V, APFC, 20 + 4 pin, 8 pin, 4+4 pin CPU, 12 SATA, 6+2 pin x4 PCI-E</div>
+										</li>
+										<li data-price="100" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Thermaltake Toughpower GF</div>
+											<div class="content-configurator-rows__subtitle">750 Вт, 80+ Gold, APFC, 24 pin, 8 pin, 4+4 pin CPU, 9 SATA, 6+2 pin x4 PCI-E</div>
+										</li>
+										<li data-price="105" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Chieftec POLARIS</div>
+											<div class="content-configurator-rows__subtitle">750 Вт, 80+ Gold, APFC, 20 + 4 pin, 4+4 pin x2 CPU, 8 SATA, 6+2 pin x4 PCI-E</div>
+										</li>
+										<li data-price="110" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Cougar BXM</div>
+											<div class="content-configurator-rows__subtitle">1000 Вт, 80+ Bronze, APFC, 20 + 4 pin, 8 pin, 4+4 pin CPU, 9 SATA, 6+2 pin x8 PCI-E</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Система охлаждения:</div>
+											<div id="cooling" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="25" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">DEEPCOOL GAMMAXX 400S</div>
+											<div class="content-configurator-rows__subtitle">1300 об/мин, 14.6 дБ, 3 pin, 130 Вт</div>
+										</li>
+										<li data-price="26" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AeroCool Verkho 4</div>
+											<div class="content-configurator-rows__subtitle">2000 об/мин, 27 дБ, 4 pin, 140 Вт</div>
+										</li>
+										<li data-price="27" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AeroCool Verkho 4 Lite</div>
+											<div class="content-configurator-rows__subtitle">2000 об/мин, 26.8 дБ, 4 pin, 125 Вт</div>
+										</li>
+										<li data-price="28" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ID-COOLING SE-224-XT-R</div>
+											<div class="content-configurator-rows__subtitle">1800 об/мин, 32.5 дБ, 4 pin, 180 Вт</div>
+										</li>
+										<li data-price="28" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">DEEPCOOL GAMMAXX GTE V2</div>
+											<div class="content-configurator-rows__subtitle">1650 об/мин, 27.8 дБ, 4 pin, 180 Вт</div>
+										</li>
+										<li data-price="30" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">DEEPCOOL AG400 BK ARGB</div>
+											<div class="content-configurator-rows__subtitle">2000 об/мин, 31.6 дБ, 4 pin, 220 Вт</div>
+										</li>
+										<li data-price="31" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Cooler Master Hyper H410R</div>
+											<div class="content-configurator-rows__subtitle">2000 об/мин, 29 дБ, 4 pin, 100 Вт</div>
+										</li>
+										<li data-price="32" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Xilence M403PRO.W.ARGB</div>
+											<div class="content-configurator-rows__subtitle">1800 об/мин, 25.6 дБ, 4 pin, 150 Вт</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+							</div>
+							<div data-spollers data-one-spoller class="content-configurator__rows content-configurator-rows">
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Операционная система:</div>
+											<div id="os" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="13" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Windows 10 Pro</div>
+										</li>
+										<li data-price="13" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Windows 10 Home</div>
+										</li>
+										<li data-price="13" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Windows 10 Corporate</div>
+										</li>
+										<li data-price="15" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Windows 11 Pro</div>
+										</li>
+										<li data-price="15" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Windows 11 Home</div>
+										</li>
+										<li data-price="15" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Windows 11 Corporate</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+							</div>
+							<div data-spollers data-one-spoller class="content-configurator__rows content-configurator-rows">
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Клавиатура:</div>
+											<div id="keyboard" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="145" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Corsair Gaming K70 RGB</div>
+											<div class="content-configurator-rows__subtitle">Cherry MX Speed, клавиш - 111, USB</div>
+										</li>
+										<li data-price="146" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Dark Project KD87A Gateron Teal Cap</div>
+											<div class="content-configurator-rows__subtitle">механическая Gateron Cap Teal, клавиш - 87, USB</div>
+										</li>
+										<li data-price="146" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">HyperX Alloy FPS RGB</div>
+											<div class="content-configurator-rows__subtitle">механическая Kailh Silver Speed, клавиш - 104, USB</div>
+										</li>
+										<li data-price="147" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">SteelSeries Apex 3</div>
+											<div class="content-configurator-rows__subtitle">мембранная, клавиш - 106, USB</div>
+										</li>
+										<li data-price="147" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Xtrfy K4 RGB</div>
+											<div class="content-configurator-rows__subtitle">механическая Kailh Red, клавиш - 105, USB</div>
+										</li>
+										<li data-price="149" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Glorious GMMK Compact</div>
+											<div class="content-configurator-rows__subtitle">механическая Gateron Brown, клавиш - 61, USB</div>
+										</li>
+										<li data-price="150" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Glorious GMMK TKL</div>
+											<div class="content-configurator-rows__subtitle">механическая Gateron Brown, клавиш - 87, USB</div>
+										</li>
+										<li data-price="150" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Logitech G512 Carbon</div>
+											<div class="content-configurator-rows__subtitle">механическая Logitech GX Brown, клавиш - 104, USB</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Мышь:</div>
+											<div id="mouse" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="125" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Razer Basilisk Ultimate</div>
+											<div class="content-configurator-rows__subtitle">20000 dpi, светодиодный, USB Type-A, кнопки - 11</div>
+										</li>
+										<li data-price="127" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Pulsar X2</div>
+											<div class="content-configurator-rows__subtitle">26000 dpi, светодиодный, USB Type-C, кнопки - 5</div>
+										</li>
+										<li data-price="128" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Logitech G502 LIGHTSPEED</div>
+											<div class="content-configurator-rows__subtitle">25600 dpi, светодиодный, USB Type-A, кнопки - 11</div>
+										</li>
+										<li data-price="131" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ASUS ROG Gladius III</div>
+											<div class="content-configurator-rows__subtitle">19000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 6</div>
+										</li>
+										<li data-price="133" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ASUS ROG Chakram</div>
+											<div class="content-configurator-rows__subtitle">16000 dpi, светодиодный, Bluetooth, USB Type-A, кнопки - 6</div>
+										</li>
+										<li data-price="134" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ASUS ROG Chakram X</div>
+											<div class="content-configurator-rows__subtitle">36000 dpi, светодиодный, USB Type-A, кнопки - 11</div>
+										</li>
+										<li data-price="134" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Razer DeathAdder V3 Pro</div>
+											<div class="content-configurator-rows__subtitle">30000 dpi, светодиодный, USB Type-A, кнопки - 5</div>
+										</li>
+										<li data-price="135" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Xtrfy M42 Wireless</div>
+											<div class="content-configurator-rows__subtitle">19000 dpi, светодиодный, USB Type-A, кнопки - 6</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Монитор:</div>
+											<div id="monitor" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="395" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">ASUS TUF Gaming VG289Q</div>
+											<div class="content-configurator-rows__subtitle">3840x2160@60 Гц, 28", IPS, 5 мс, 1000 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI, AMD FreeSync</div>
+										</li>
+										<li data-price="450" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">MSI Optix MAG321QR</div>
+											<div class="content-configurator-rows__subtitle">2560x1440@165 Гц, 31.5", IPS, 1200 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI x2, USB Type-C, USB х2 шт, NVIDIA G-SYNC Compatible</div>
+										</li>
+										<li data-price="500" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">HUAWEI MateView GT ZQE-CBA</div>
+											<div class="content-configurator-rows__subtitle">3440x1440@165 Гц, 34", VA, 4 мс, 4000 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI x2</div>
+										</li>
+										<li data-price="644" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">GIGABYTE AORUS FO48U</div>
+											<div class="content-configurator-rows__subtitle">3840x2160@120 Гц, 47.53", OLED, 1 мс, 135000 : 1, 900 Кд/м², 178°/178°, HDMI x2, DisplayPort, USB Type-C, USB х2 шт, AMD FreeSync Premium</div>
+										</li>
+										<li data-price="668" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">MSI Optix MAG281URF</div>
+											<div class="content-configurator-rows__subtitle">3840x2160@144 Гц, 27.9", IPS, 1000 : 1, 400 Кд/м², 178°/178°, DisplayPort, HDMI x2, USB Type-C, USB х2 шт, NVIDIA G-SYNC Compatible</div>
+										</li>
+										<li data-price="680" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">LG UltraGear 27GN800-B</div>
+											<div class="content-configurator-rows__subtitle">2560x1440@144 Гц, 27", IPS, 1 мс, 1000 : 1, 350 Кд/м², 178°/178°, DisplayPort, HDMI x2, AMD FreeSync Premium, NVIDIA G-SYNC Compatible</div>
+										</li>
+										<li data-price="700" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">MSI Optix MAG342CQR</div>
+											<div class="content-configurator-rows__subtitle">3440x1440@144 Гц, 34", VA, 4000 : 1, 300 Кд/м², 178°/178°, DisplayPort, HDMI x2, Adaptive-Sync</div>
+										</li>
+										<li data-price="712" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Samsung Odyssey G7 S28AG702NI</div>
+											<div class="content-configurator-rows__subtitle">3840x2160@144 Гц, 28", IPS, 1 мс, 1000 : 1, 400 Кд/м², 178°/178°, DisplayPort, HDMI x2, USB х2 шт, AMD FreeSync Premium Pro, NVIDIA G-SYNC Compatible</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Колонки:</div>
+											<div id="sound" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="105" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Razer Nommo</div>
+											<div class="content-configurator-rows__subtitle">20 Вт, питание - сеть 220 В</div>
+										</li>
+										<li data-price="130" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Fiero BHS-200</div>
+											<div class="content-configurator-rows__subtitle">50 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+										</li>
+										<li data-price="155" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Microlab SOLO19</div>
+											<div class="content-configurator-rows__subtitle">200 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+										</li>
+										<li data-price="176" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Thonet & Vander Vertrag BT</div>
+											<div class="content-configurator-rows__subtitle">46 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+										</li>
+										<li data-price="188" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Edifier R1042BT</div>
+											<div class="content-configurator-rows__subtitle">42 Вт, Bluetooth, питание - сеть 220 В</div>
+										</li>
+										<li data-price="209" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Microlab B77BT</div>
+											<div class="content-configurator-rows__subtitle">64 Вт, Bluetooth, питание - сеть 220 В</div>
+										</li>
+										<li data-price="211" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">PreSonus Eris E3.5 BT</div>
+											<div class="content-configurator-rows__subtitle">50 Вт, Bluetooth, питание - сеть 220 В</div>
+										</li>
+										<li data-price="211" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Thonet & Vander Kugel BT</div>
+											<div class="content-configurator-rows__subtitle">140 Вт, беспроводной ПДУ, Bluetooth, питание - сеть 220 В</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Наушники:</div>
+											<div id="headphones" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="237" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Corsair Virtuoso RGB Wireless SE</div>
+											<div class="content-configurator-rows__subtitle">7.1 Virtual, для Nintendo Switch, PS5, Xbox Series X|S, охватывающие, 20 Гц - 40000 Гц, 32Ω, радиоканал, проводной</div>
+										</li>
+										<li data-price="240" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Meze 99 NEO</div>
+											<div class="content-configurator-rows__subtitle">2.0, охватывающие, 15 Гц - 25000 Гц, 26Ω, проводной, кабель - 3 м</div>
+										</li>
+										<li data-price="244" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Logitech G733 LIGHTSPEED</div>
+											<div class="content-configurator-rows__subtitle">7.1 Virtual, для PS5, охватывающие, 20 Гц - 20000 Гц, 39Ω, радиоканал</div>
+										</li>
+										<li data-price="245" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Sennheiser HD 450 BT</div>
+											<div class="content-configurator-rows__subtitle">2.0, охватывающие, 18000 Гц - 22000 Гц, Bluetooth, 5.0</div>
+										</li>
+										<li data-price="247" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Master & Dynamic MW65</div>
+											<div class="content-configurator-rows__subtitle">2.0, охватывающие, 20 Гц - 20000 Гц, 32Ω, Bluetooth, проводной, 4.2, кабель - 1.5 м</div>
+										</li>
+										<li data-price="248" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Sennheiser HD 450 BT</div>
+											<div class="content-configurator-rows__subtitle">2.0, охватывающие, 18 Гц - 22000 Гц, Bluetooth, 5.0</div>
+										</li>
+										<li data-price="250" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Beyerdynamic DT 990</div>
+											<div class="content-configurator-rows__subtitle">2.0, охватывающие, 5 Гц - 35000 Гц, 250Ω, проводной, кабель - 3 м</div>
+										</li>
+										<li data-price="250" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">SteelSeries Arctis 9</div>
+											<div class="content-configurator-rows__subtitle">7.1 Virtual, для PS5, охватывающие, 20 Гц - 20000 Гц, 32Ω, Bluetooth, радиоканал, 4.1</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+								<div data-price="0" class="content-configurator-rows__row empty">
+									<div data-spoller class="content-configurator-rows__header">
+										<div class="content-configurator-rows__info">
+											<div class="content-configurator-rows__label">Кресло:</div>
+											<div id="armchair" class="content-configurator-rows__text">Не выбранно</div>
+										</div>
+										<div class="content-configurator-rows__icon _icon-arrow"></div>
+									</div>
+									<ul class="content-configurator-rows__list">
+										<li data-price="316" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">MSI MAG CH120</div>
+											<div class="content-configurator-rows__subtitle">экокожа, до 150 кг, подголовник, подлокотники - 4D</div>
+										</li>
+										<li data-price="320" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Square LUX</div>
+											<div class="content-configurator-rows__subtitle">искусственная кожа, до 150 кг, подголовник, подлокотники - 4D</div>
+										</li>
+										<li data-price="325" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">VMMGAME MAROON</div>
+											<div class="content-configurator-rows__subtitle">искусственная кожа, до 150 кг, подголовник, подлокотники - 4D</div>
+										</li>
+										<li data-price="327" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">CANYON Argama GC-4A</div>
+											<div class="content-configurator-rows__subtitle">экокожа, до 150 кг, подголовник, подлокотники - 3D</div>
+										</li>
+										<li data-price="327" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">DRIFT DR275NIGHT</div>
+											<div class="content-configurator-rows__subtitle">искусственная кожа, до 150 кг, подлокотники - 4D</div>
+										</li>
+										<li data-price="328" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">Tesoro Alphaeon S3 TS-F720</div>
+											<div class="content-configurator-rows__subtitle">искусственная кожа, до 130 кг, подголовник, подлокотники - 3D</div>
+										</li>
+										<li data-price="330" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">AndaSeat Phantom 3</div>
+											<div class="content-configurator-rows__subtitle">ткань, до 90 кг, подголовник, подлокотники - 2D</div>
+										</li>
+										<li data-price="330" class="content-configurator-rows__list-item">
+											<div class="content-configurator-rows__title">WARP Gr</div>
+											<div class="content-configurator-rows__subtitle">экокожа, до 120 кг, подголовник, подлокотники - 3D</div>
+										</li>
+									</ul>
+									<div class="content-configurator-rows__row-item"></div>
+								</div>
+							</div>
+						</div>
+						<div class="configurator__total total-configurator">
+							<div class="total-configurator__content">
+								<div class="total-configurator__image">
+									<picture><source srcset="img/configuration-big.webp" type="image/webp"><img src="img/configuration-big.png" alt="image"></picture>
+								</div>
+								<div class="total-configurator__icon _icon-save"></div>
+								<div data-da=".total-configurator__info, 991.98" class="total-configurator__add">
+									<div class="total-configurator__total">
+										<div class="total-configurator__total-text">Итого:</div>
+										<div class="total-configurator__total-price">
+											<div class="total-configurator__total-price-sum">0</div>
+											<span>$</span>
+										</div>
+									</div>
+									<div class="total-configurator__buttons">
+										<div class="total-configurator__back">
+											<div class="total-configurator__back-icon _icon-arrow"></div>
+											<div class="total-configurator__back-text">вернуться назад</div>
+										</div>
+										<div class="total-configurator__button-add button">
+											<a href="configurator.html" class="button__item"><span>Добавить в корзину</span></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-simplebar-desktop class="total-configurator__info info-configurator">
+								<div class="info-configurator__title">Конфигурация</div>
+								<ul class="info-configurator__list">
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Пороцессор</div>
+										<div id="_cpu" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Видеокарта</div>
+										<div id="_video" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Материнская плата</div>
+										<div id="_motherboard" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Оперативная память</div>
+										<div id="_ram" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">SSD диск</div>
+										<div id="_ssd" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">HDD диск</div>
+										<div id="_hdd" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Блок питания</div>
+										<div id="_power" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Система охлаждения</div>
+										<div id="_cooling" class="info-configurator__list-text"></div>
+									</li>
+								</ul>
+								<div class="info-configurator__title">Сервис</div>
+								<ul class="info-configurator__list">
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Операционная система</div>
+										<div id="_os" class="info-configurator__list-text"></div>
+									</li>
+								</ul>
+								<div class="info-configurator__title">Переферия</div>
+								<ul class="info-configurator__list">
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Клавиатура</div>
+										<div id="_keyboard" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Мышь</div>
+										<div id="_mouse" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Монитор</div>
+										<div id="_monitor" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Колонки</div>
+										<div id="_sound" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Наушники</div>
+										<div id="_headphones" class="info-configurator__list-text"></div>
+									</li>
+									<li class="info-configurator__list-item">
+										<div class="info-configurator__list-name">Кресло</div>
+										<div id="_armchair" class="info-configurator__list-text"></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div id="add-assembly" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<form class="popup__content form-popup">
+				<div class="form-popup__top">
+					<h3 class="form-popup__title">Загрузить сборку</h3>
+					<button data-close type="button" class="form-popup__close"></button>
+				</div>
+				<div class="form-popup__input">
+					<input autocomplete="off" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Введите номер сборки" class="form-popup__input-item input">
+				</div>
+				<div class="form-popup__buttons">
+					<button type="submit" class="form-popup__button button">
+						<div class="button__item"><span>Добавить готовую сборку</span></div>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="thanks" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content submit-popup">
+				<div class="submit-popup__top">
+					<h3 class="submit-popup__title">Заказ принят</h3>
+					<button data-close type="button" class="submit-popup__close"></button>
+				</div>
+				<div class="submit-popup__info">Спасибо за оказанное доверие. Ожидайте когда наша команда обработает ваш заказ. После чего тут же свами свяжется для уточнения деталей.</div>
+				<div class="submit-popup__button button">
+					<a href="home.html" class="button__item"><span>Вернуться на главную</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230225081142"></script>
+</body>
+
+</html>

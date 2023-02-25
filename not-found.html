@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Ошибка 404</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230225081142">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-white">
+	<div class="wrapper bg-white">
+		<main class="page">
+			<div data-fullscreen class="error">
+				<div class="error__container">
+					<div class="error__body">
+						<div class="error__title">упс... Видимо что то пошло не так</div>
+						<div class="error__subtitle">Не волнуйтесь, всё в порядке. Просто запрашиваемая вами страница не нашлась. Да такое тоже бывает.</div>
+						<div class="error__button button">
+							<a href="home.html" class="button__item"><span>Вернуться на главную</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="error__image">
+					<picture>
+						<source srcset="img/error.jpg" type="image/jpg" media="(min-width:991.98px)">
+						<source srcset="img/error-t.jpg" type="image/jpg" media="(min-width:767.98px)">
+						<source srcset="img/error-m.jpg" type="image/jpg" media="(max-width:767.98px)">
+						<img src="img/error.jpg" alt="background">
+					</picture>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div id="add-assembly" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<form class="popup__content form-popup">
+				<div class="form-popup__top">
+					<h3 class="form-popup__title">Загрузить сборку</h3>
+					<button data-close type="button" class="form-popup__close"></button>
+				</div>
+				<div class="form-popup__input">
+					<input autocomplete="off" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Введите номер сборки" class="form-popup__input-item input">
+				</div>
+				<div class="form-popup__buttons">
+					<button type="submit" class="form-popup__button button">
+						<div class="button__item"><span>Добавить готовую сборку</span></div>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="thanks" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content submit-popup">
+				<div class="submit-popup__top">
+					<h3 class="submit-popup__title">Заказ принят</h3>
+					<button data-close type="button" class="submit-popup__close"></button>
+				</div>
+				<div class="submit-popup__info">Спасибо за оказанное доверие. Ожидайте когда наша команда обработает ваш заказ. После чего тут же свами свяжется для уточнения деталей.</div>
+				<div class="submit-popup__button button">
+					<a href="home.html" class="button__item"><span>Вернуться на главную</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230225081142"></script>
+</body>
+
+</html>

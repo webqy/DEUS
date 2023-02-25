@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Корзина</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230225081142">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-black">
+	<div class="wrapper bg-black">
+		<header data-lp class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="home.html" class="header__logo-item">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+								<li class="menu__item"><a href="configurator.html" class="menu__link">Конфигуратор</a></li>
+								<li class="menu__item"><a href="delivery.html" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="payment.html" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="guarantee.html" class="menu__link">Гарантия</a></li>
+								<li class="menu__item"><a href="about-us.html" class="menu__link">О нас</a></li>
+								<li class="menu__item"><a href="tel:+375297643351" class="menu__link menu__link--phone">+375 (29) 764-33-51</a></li>
+							</ul>
+							<div class="menu__body-item--1"></div>
+							<div class="menu__body-item--2"></div>
+						</nav>
+					</div>
+					<a href="tel:+375297643351" class="header__phone">+375 (29) 764-33-51</a>
+					<div class="header__cart cart-header">
+						<a href="cart.html" class="cart-header__icon">
+							<div class="cart-header__icon-item _icon-basket"></div>
+						</a>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="empty-cart">
+				<div class="empty-cart__container">
+					<div class="empty-cart__body">
+						<h2 class="empty-cart__title">Ваша корзина пуста</h2>
+						<div class="empty-cart__info">Но вы всегда можете это исправить. Начните с главной страницы или загрузите готовую сборку, собранную в конфигураторе.</div>
+						<div class="empty-cart__buttons">
+							<a href="#" data-popup="#add-assembly" class="empty-cart__button button">
+								<div data-popup="#add-assembly" class="button__item"><span>Загрузить сборку</span></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cart">
+				<div class="cart__container">
+					<div class="cart__body">
+						<form data-free="Бесплатная доставка" class="cart__form form-cart">
+							<div class="form-cart__tab form-order">
+								<div class="form-order__title form-tab-title"><span>1. </span>Ваш заказ</div>
+								<ul data-spollers class="form-order__items order-list">
+								</ul>
+								<div class="form-order__buttons form-buttons">
+									<button type="button" class="form-buttons__next">
+										<div class="form-buttons__next-item">
+											<div class="form-buttons__next-text">следующий шаг</div>
+											<div class="form-buttons__next-icon _icon-arrow"></div>
+										</div>
+									</button>
+								</div>
+							</div>
+							<div class="form-cart__tab form-decor">
+								<div class="form-decor__title form-tab-title"><span>2. </span>Оформление заказа</div>
+								<div class="form-decor__columns">
+									<div class="form-decor__column">
+										<div class="form-decor__label">Контактные данные</div>
+										<div class="form-decor__inputs">
+											<div class="form-decor__input">
+												<input autocomplete="off" id="name" data-required="name" data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Фамилия Имя Отчество*" class="form-decor__input-item input">
+											</div>
+											<div class="form-decor__input">
+												<input autocomplete="off" id="tel" data-required="tel" data-validate data-tel-input type="tel" maxlength="19" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Телефон*" class="form-decor__input-item input">
+											</div>
+											<div class="form-decor__input">
+												<input autocomplete="off" id="email" type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Электронная почта" class="form-decor__input-item input">
+											</div>
+										</div>
+									</div>
+									<div class="form-decor__column">
+										<div class="form-decor__label">Адрес доставки</div>
+										<div class="form-decor__inputs">
+											<div class="form-decor__input">
+												<input autocomplete="off" id="city" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Город*" class="form-decor__input-item input">
+											</div>
+											<div class="form-decor__input">
+												<input autocomplete="off" id="home" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Улица / Дом / Квартира*" class="form-decor__input-item input">
+											</div>
+											<div class="form-decor__input">
+												<input autocomplete="off" id="index" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Индекс*" class="form-decor__input-item input">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-decor__label">Способы оплаты</div>
+								<div id="payment" class="form-decor__radiobuttons">
+									<div class="form-decor__radiobuttons-item">
+										<input id="contactChoice1" checked type="radio" value="1" name="form[]" data-error="" class="form-decor__radiobuttons-input">
+										<label class="form-decor__radiobuttons-text" for="contactChoice1">Наличными курьеру</label>
+									</div>
+									<div class="form-decor__radiobuttons-item">
+										<input id="contactChoice2" type="radio" value="2" name="form[]" data-error="" class="form-decor__radiobuttons-input">
+										<label class="form-decor__radiobuttons-text" for="contactChoice2">Банковской картой</label>
+									</div>
+								</div>
+								<div class="form-decor__buttons form-buttons">
+									<button type="button" class="form-buttons__prev">
+										<div class="form-buttons__prev-icon _icon-arrow"></div>
+										<div class="form-buttons__prev-text">вернуться назад</div>
+									</button>
+									<button type="button" class="form-buttons__next">
+										<div class="form-buttons__next-item">
+											<div class="form-buttons__next-text">следующий шаг</div>
+											<div class="form-buttons__next-icon _icon-arrow"></div>
+										</div>
+									</button>
+								</div>
+							</div>
+							<div class="form-cart__tab form-confirmation">
+								<div class="form-confirmation__title form-tab-title"><span>3. </span>Подтверждение</div>
+								<div class="form-confirmation__label">Контактные данные</div>
+								<div class="form-confirmation__info">
+									<div class="form-confirmation__info-item">
+										<div class="form-confirmation__text">Контактное лицо</div>
+										<div id="name_2" class="form-confirmation__input-text"></div>
+									</div>
+									<div class="form-confirmation__info-item">
+										<div class="form-confirmation__text">Телефон</div>
+										<div id="tel_2" class="form-confirmation__input-text"></div>
+									</div>
+									<div class="form-confirmation__info-item">
+										<div class="form-confirmation__text">Электронная почта</div>
+										<div id="email_2" class="form-confirmation__input-text"></div>
+									</div>
+									<div class="form-confirmation__info-item">
+										<div class="form-confirmation__text">Доставка</div>
+										<div id="delivery" class="form-confirmation__input-text"></div>
+									</div>
+									<div class="form-confirmation__info-item">
+										<div class="form-confirmation__text">Оплата</div>
+										<div id="payment_2" class="form-confirmation__input-text"></div>
+									</div>
+								</div>
+								<div class="form-confirmation__label">Состав заказа</div>
+								<ul data-spollers class="form-confirmation__items order-list">
+								</ul>
+								<div class="form-confirmation__input">
+									<textarea autocomplete="off" type="textarea" name="form[]" placeholder="Пожелания по заказу" data-error="" class="form-confirmation__input-item input"></textarea>
+								</div>
+								<div class="form-confirmation__checkbox">
+									<div class="form-confirmation__checkbox-item">
+										<input id="c_1" data-required data-validate data-error="" class="form-confirmation__checkbox-input" type="checkbox" value="1" name="form[]">
+										<label for="c_1" class="form-confirmation__checkbox-label">Я соглашаюсь с условиями обработки персональных данных</label>
+									</div>
+									<div class="form-confirmation__total">
+										<p>Итого:</p> <span></span> <span>$</span>
+									</div>
+								</div>
+								<div class="form-confirmation__buttons form-buttons">
+									<button type="button" class="form-buttons__prev">
+										<div class="form-buttons__prev-icon _icon-arrow"></div>
+										<div class="form-buttons__prev-text">вернуться назад</div>
+									</button>
+									<button type="submit" class="form-buttons__next">
+										<div class="form-buttons__next-item">
+											<div class="form-buttons__next-text">зАВЕРШИТЬ ПОКУПКУ</div>
+										</div>
+									</button>
+								</div>
+							</div>
+						</form>
+						<div class="cart__navigation navigation-cart">
+							<div class="navigation-cart__items">
+								<div class="navigation-cart__item"><span>1. </span>Ваш заказ</div>
+								<div class="navigation-cart__item"><span>2. </span>Оформление заказа</div>
+								<div class="navigation-cart__item"><span>3. </span>Подтверждение</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div id="add-assembly" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<form class="popup__content form-popup">
+				<div class="form-popup__top">
+					<h3 class="form-popup__title">Загрузить сборку</h3>
+					<button data-close type="button" class="form-popup__close"></button>
+				</div>
+				<div class="form-popup__input">
+					<input autocomplete="off" data-required data-validate type="text" name="form[]" data-error="Проверьте правильность введённых данных" placeholder="Введите номер сборки" class="form-popup__input-item input">
+				</div>
+				<div class="form-popup__buttons">
+					<button type="submit" class="form-popup__button button">
+						<div class="button__item"><span>Добавить готовую сборку</span></div>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="thanks" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content submit-popup">
+				<div class="submit-popup__top">
+					<h3 class="submit-popup__title">Заказ принят</h3>
+					<button data-close type="button" class="submit-popup__close"></button>
+				</div>
+				<div class="submit-popup__info">Спасибо за оказанное доверие. Ожидайте когда наша команда обработает ваш заказ. После чего тут же свами свяжется для уточнения деталей.</div>
+				<div class="submit-popup__button button">
+					<a href="home.html" class="button__item"><span>Вернуться на главную</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230225081142"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 5,
+            "url": "#",
+            "series": "optima",
+            "title": "Optima Lvl 1",
+            "type": "Игровой компьютер",
+            "image": "img/configuration.png",
+            "price": "1361",
+            "cpu": "AMD 8/16X Ryzen 7 3700X 3.6-4.4GHz",
+            "motherboard": "AMD B450 ATX 4xDimm Gigabyte Pro",
+            "videoCard": "Gigabyte RTX 2060 Super 8Gb",
+            "ram": "G.Skill RGB 2x8Gb 3200MHz",
+            "power": "750W Gold DeepCool Quanta",
+            "hdd": "1000Gb Seagate 7200rpm Barracuda",
+            "ssd": "XPG SX8200 Pro 512Gb M.2"
+        },
+        {
+            "id": 6,
+            "url": "#",
+            "series": "optima",
+            "title": "Optima Lvl 2",
+            "type": "Игровой компьютер",
+            "image": "img/configuration.png",
+            "price": "1520",
+            "cpu": "AMD 8/16X Ryzen 7 3700X 3.6-4.4GHz",
+            "motherboard": "AMD B450 ATX 4xDimm Gigabyte Pro",
+            "videoCard": "Gigabyte RTX 2070 Super 8Gb",
+            "ram": "G.Skill RGB 2x8Gb 3200MHz",
+            "power": "750W Gold DeepCool Quanta",
+            "hdd": "1000Gb Seagate 7200rpm Barracuda",
+            "ssd": "XPG SX8200 Pro 512Gb M.2"
+        },
+        {
+            "id": 7,
+            "url": "#",
+            "series": "optima",
+            "title": "Optima Lvl 3",
+            "type": "Игровой компьютер",
+            "image": "img/configuration.png",
+            "price": "1680",
+            "cpu": "AMD 8/16X Ryzen 7 3700X 3.6-4.4GHz",
+            "motherboard": "AMD B450 ATX 4xDimm Gigabyte Pro",
+            "videoCard": "Gigabyte RTX 2080 Super 8Gb",
+            "ram": "G.Skill RGB 2x8Gb 3200MHz",
+            "power": "750W Gold DeepCool Quanta",
+            "hdd": "1000Gb Seagate 7200rpm Barracuda",
+            "ssd": "XPG SX8200 Pro 512Gb M.2"
+        },
+        {
+            "id": 8,
+            "url": "#",
+            "series": "optima",
+            "title": "Optima Lvl 4",
+            "type": "Игровой компьютер",
+            "image": "img/configuration.png",
+            "price": "1790",
+            "cpu": "AMD 8/16X Ryzen 7 3700X 3.6-4.4GHz",
+            "motherboard": "AMD B450 ATX 4xDimm Gigabyte Pro",
+            "videoCard": "Gigabyte RTX 2080 Ti Super 11Gb",
+            "ram": "G.Skill RGB 2x8Gb 3200MHz",
+            "power": "G.Skill RGB 2x8Gb 3200MHz",
+            "hdd": "G.Skill RGB 2x8Gb 3200MHz",
+            "ssd": "XPG SX8200 Pro 512Gb M.2"
+        }
+    ]
+}
